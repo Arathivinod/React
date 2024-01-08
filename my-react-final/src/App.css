@@ -1,0 +1,36 @@
+.my-card {
+  transition: transform 0.3s ease-in-out;
+}
+ 
+.my-card:hover {
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+ 
+.left-side,
+.right-side {
+  padding: 20px;
+}
+ 
+.left-side img {
+  width: 100%;
+  height: auto;
+}
+.body-height {
+  min-height: 90%;
+} 
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+  }
+ 
+  .left-side,
+  .right-side {
+    width: 100%;
+  }
+}
+ 
