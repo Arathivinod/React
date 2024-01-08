@@ -1,0 +1,21 @@
+/* src/ToggleButton.css */
+.toggle-button-container {
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    color: #f8f8f8;
+  }
+  
+  .bg-rose {
+    background-color: rgb(232, 175, 187);
+  }
+  
+  .bg-dark {
+    background-color: #343a40;
+  }
+  
+  .bg-ocean {
+    background-color: #5fa1e7;
+  }
+  
