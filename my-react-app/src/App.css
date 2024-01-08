@@ -1,0 +1,67 @@
+/* Additional styling for Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .col-md-3 {
+    margin-bottom: 20px;
+  }
+}
+
+/* Styling for Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Styling for Sidebar */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.sidebar h3 {
+  color: #007bff;
+}
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  color: #333;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.sidebar li:last-child {
+  border-bottom: none;
+}
+/* Set the main container as a flex container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+}
+
+/* The flex-grow property makes the main content area grow to fill the available space */
+.container-fluid {
+  flex-grow: 1;
+}
+
+/* Styling for Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
